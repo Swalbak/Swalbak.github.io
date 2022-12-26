@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "My Blog"
+title                    : "My Blog" # site tap title
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "v1.0" # site tagline that appears below site title in masthead
+name                     : "육정훈(JungHun Yuk)"
+description              : "Studying Artificial Intelligence"
+url                      : "swalbak.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "https://github.com/Swalbak/Swalbak.github.io.git"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "deep" # overrides the website title displayed in the masthead, use " " for no title(얘가 title보다 우선)
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -100,19 +100,19 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Author
+# Site Author(프로필)
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "JungHun Yuk"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"(profile photo)
+  bio              : "Studying **NLP**<br><br>한밭대학교 컴퓨터공학과<br>Hanbat univ. <br>Computer Engineering"
+  location         : "Republic of Korea, Daejeon"
+  # email            : "usually670@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:usually670@email.com" # mailto: 이메일 바로 쓸 수 있게 해주는거
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-link" # fas fa-fw fa-{SNS NAME} 형식
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Swalbak"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -132,13 +132,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      # url:  # url만 주석 처리 시 아이콘 안 뜸
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/Swalbak"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -216,7 +216,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
