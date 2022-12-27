@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -22,7 +22,7 @@ subtitle                 : "v1.0" # site tagline that appears below site title i
 name                     : "육정훈(JungHun Yuk)"
 description              : "Studying Artificial Intelligence"
 url                      : "swalbak.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/Swalbak/Swalbak.github.io.git"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -105,7 +105,7 @@ author:
   name             : "JungHun Yuk"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"(profile photo)
   bio              : "Studying **NLP**<br><br>한밭대학교 컴퓨터공학과<br>Hanbat univ. <br>Computer Engineering"
-  location         : "Republic of Korea, Daejeon"
+  location         : "Republic of Korea<br>Daejeon"
   # email            : "usually670@gmail.com"
   links:
     - label: "Email"
