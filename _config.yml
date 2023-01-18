@@ -103,7 +103,7 @@ analytics:
 # Site Author(프로필)
 author:
   name             : "JungHun Yuk"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"(profile photo)
+  avatar           : "/assets/images/pingu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"(profile photo)
   bio              : "Studying **NLP**<br><br>한밭대학교 컴퓨터공학과<br>Hanbat univ. <br>Computer Engineering"
   location         : "Republic of Korea<br>Daejeon"
   # email            : "usually670@gmail.com"
@@ -154,6 +154,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - "_pages"
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

@@ -8,6 +8,9 @@ tags:
   - edge case
   - lists
   - markup
+toc: true
+toc_sticky: true
+toc_label: "aaa"
 ---
 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
